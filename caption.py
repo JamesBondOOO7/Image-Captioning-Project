@@ -3,7 +3,7 @@ import keras
 import pickle
 from keras.applications.resnet50 import ResNet50, preprocess_input
 from keras.preprocessing import image
-from keras.models import Model, load_model
+from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 
 model = load_model("./model_29.h5")
